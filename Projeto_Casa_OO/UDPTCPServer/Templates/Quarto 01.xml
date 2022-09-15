@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<template>
+  <name>Quarto 01</name>
+  <DynamicBasedTemplate>true</DynamicBasedTemplate>
+  <numberOfButtons>100</numberOfButtons>
+  <amountOfButtonsInARow>4</amountOfButtonsInARow>
+  <outIP>192.168.3.100,</outIP>
+  <outPort>8090</outPort>
+  <addLF>false</addLF>
+  <addCR>false</addCR>
+  <useTCP>true</useTCP>
+  <waitForConnection>false</waitForConnection>
+  <closeSocketWhenDone>true</closeSocketWhenDone>
+  <workInHEX>false</workInHEX>
+  <setRowHeights>false</setRowHeights>
+  <rowHeight>90</rowHeight>
+  <buttonConfig>
+    <button1 text="LUZ 01" command="#Q1*L1*L*D0000*L0000@" bg_color="-1" />
+    <button2 text="LUZ PC" command="#Q1*L2*L*D0000*L0000@" bg_color="-1" />
+    <button3 text="PERFIL 01" command="#Q1*L5*L*D0000*L0000@" bg_color="-1" />
+    <button4 text="LUZ 01 AUTO" command="#Q1*L1*A*D0000*L0000@" bg_color="-1" />
+    <button5 text="LUZ 03 AUTO " command="#Q1*L3*A*D0000*L0000@" bg_color="-1" />
+    <button6 text="LUZ FULL" command="#Q1*L7*L*D0000*L0000@" bg_color="-1" />
+    <button7 text="LUZ 01              L 13:30              D 14:00" command="#Q1*L1*T*D1400*L1330*11111XX@" bg_color="-1" />
+    <button8 text="LUZ  03              L 00:00             D 00:00" command="#Q1*T2*L*D0" bg_color="-1" />
+    <button9 text="Tempo Sensor Movimento Modificar 3" command="#Q1*S1*3*D0000*L0000@" bg_color="-1" />
+    <button10 text="LCD" command="LCD" bg_color="-1" />
+    <button11 text="LUZ 03" command="#Q1*L3*L*D0000*L0000@" bg_color="-1" />
+    <button12 text="LUZ 04" command="#Q1*L4*L*D0000*L0000@" bg_color="-1" />
+    <button13 text="PERFIL 02" command="#Q1*L6*L*D0750*L0330@" bg_color="-1" />
+    <button14 text="LUZ 02 AUTO " command="#Q1*L2*A*D0000*L0000@" bg_color="-1" />
+    <button15 text="LUZ 04 AUTO " command="#Q1*L4*A*D0000*L0000@" bg_color="-1" />
+    <button16 text="DESLIGA LUZ   FULL" command="#Q1*L8*L*D0000*L0000@" bg_color="-1" />
+    <button17 text="LUZ  01              L 07:00             D 08:10" command="#Q1*L1*T*D0810*L0700*11111XX@" bg_color="-1" />
+    <button18 text="LUZ  04              L 00:00             D 00:00" command="#Q1*S1*5*D000" bg_color="-1" />
+    <button19 text="Tempo Sensor Movimento Modificar 5" command="#Q1*S1*5*D0000*L0000@" bg_color="-1" />
+    <button20 text="Hora" command="HORA" bg_color="-1" />
+    <button21 text="TV" command="#Q1*T1*L*D0750*L0330@" bg_color="-1" />
+    <button22 text="TOMADA 02" command="#Q1*T2*L*D0000*L0000@" bg_color="-1" />
+    <button23 text="TV                    L 07:20              D 08:05" command="#Q1*T1*T*D0805*L0720*11111XX@" bg_color="-1" />
+    <button24 text="TV                        L 13:40              D 14:00" command="#Q1*T1*T*D1400*L1340*11111XX@" bg_color="-1" />
+    <button25 text="TOMADA   FULL" command="#Q1*T5*L*D0000*L0000@" bg_color="-1" />
+    <button26 text="VENTILADOR               L 12:25              D 13:30" command="#Q1*T3*T*D1330*L1225*11111XX@" bg_color="-1" />
+    <button27 text="" command="Command Button 27" bg_color="-1" />
+    <button28 text="" command="Command Button 28" bg_color="-1" />
+    <button29 text="" command="Command Button 29" bg_color="-1" />
+    <button30 text="VOL +" command="#Q1*HOME...*VOL+..*D0000*L0000@" bg_color="-1" />
+    <button31 text="TOMADA CAMA" command="#Q1*T4*L*D0000*L0000@" bg_color="-1" />
+    <button32 text="VENTILADOR " command="#Q1*T3*L*D0000*L0000@" bg_color="-1" />
+    <button33 text="TOMADA   CAMA                   L 20:00              D 08:00" command="#Q1*T4*T*D0800*L2000*11111XX@" bg_color="-1" />
+    <button34 text="VENTILADOR              L 03:20              D 08:05" command="#Q1*T3*T*D0805*L0320*11111XX@" bg_color="-1" />
+    <button35 text="DESLIGA TOMADA  FULL" command="#Q1*T6*L*D0000*L0000@" bg_color="-1" />
+    <button36 text="VENTILADOR FINAIS DE SEMANA                L 03:30               D 09:30" command="#Q1*T3*T*D0930*L0330*XXXXX11@" bg_color="-1" />
+    <button37 text="" command="Command Button 37" bg_color="-1" />
+    <button38 text="" command="Command Button 38" bg_color="-1" />
+    <button39 text="" command="Command Button 39" bg_color="-1" />
+    <button40 text="VOL -" command="#Q1*HOME...*VOL-..*D0000*L0000@" bg_color="-1" />
+    <button41 text="Button 41" command="Command Button 41" bg_color="-1" />
+    <button42 text="Button 42" command="Command Button 42" bg_color="-1" />
+    <button43 text="Button 43" command="Command Button 43" bg_color="-1" />
+    <button44 text="Button 44" command="Command Button 44" bg_color="-1" />
+    <button45 text="Button 45" command="Command Button 45" bg_color="-1" />
+    <button46 text="Button 46" command="Command Button 46" bg_color="-1" />
+    <button47 text="Button 47" command="Command Button 47" bg_color="-1" />
+    <button48 text="Button 48" command="Command Button 48" bg_color="-1" />
+    <button49 text="Button 49" command="Command Button 49" bg_color="-1" />
+    <button50 text="Button 50" command="Command Button 50" bg_color="-1" />
+    <button51 text="Button 51" command="Command Button 51" bg_color="-1" />
+    <button52 text="Button 52" command="Command Button 52" bg_color="-1" />
+    <button53 text="Button 53" command="Command Button 53" bg_color="-1" />
+    <button54 text="Button 54" command="Command Button 54" bg_color="-1" />
+    <button55 text="Button 55" command="Command Button 55" bg_color="-1" />
+    <button56 text="Button 56" command="Command Button 56" bg_color="-1" />
+    <button57 text="Button 57" command="Command Button 57" bg_color="-1" />
+    <button58 text="Button 58" command="Command Button 58" bg_color="-1" />
+    <button59 text="Button 59" command="Command Button 59" bg_color="-1" />
+    <button60 text="Button 60" command="Command Button 60" bg_color="-1" />
+    <button61 text="Button 61" command="Command Button 61" bg_color="-1" />
+    <button62 text="Button 62" command="Command Button 62" bg_color="-1" />
+    <button63 text="Button 63" command="Command Button 63" bg_color="-1" />
+    <button64 text="Button 64" command="Command Button 64" bg_color="-1" />
+    <button65 text="Button 65" command="Command Button 65" bg_color="-1" />
+    <button66 text="Button 66" command="Command Button 66" bg_color="-1" />
+    <button67 text="Button 67" command="Command Button 67" bg_color="-1" />
+    <button68 text="Button 68" command="Command Button 68" bg_color="-1" />
+    <button69 text="Button 69" command="Command Button 69" bg_color="-1" />
+    <button70 text="Button 70" command="Command Button 70" bg_color="-1" />
+    <button71 text="Button 71" command="Command Button 71" bg_color="-1" />
+    <button72 text="Button 72" command="Command Button 72" bg_color="-1" />
+    <button73 text="Button 73" command="Command Button 73" bg_color="-1" />
+    <button74 text="Button 74" command="Command Button 74" bg_color="-1" />
+    <button75 text="Button 75" command="Command Button 75" bg_color="-1" />
+    <button76 text="Button 76" command="Command Button 76" bg_color="-1" />
+    <button77 text="Button 77" command="Command Button 77" bg_color="-1" />
+    <button78 text="Button 78" command="Command Button 78" bg_color="-1" />
+    <button79 text="Button 79" command="Command Button 79" bg_color="-1" />
+    <button80 text="Button 80" command="Command Button 80" bg_color="-1" />
+    <button81 text="Button 81" command="Command Button 81" bg_color="-1" />
+    <button82 text="Button 82" command="Command Button 82" bg_color="-1" />
+    <button83 text="Button 83" command="Command Button 83" bg_color="-1" />
+    <button84 text="Button 84" command="Command Button 84" bg_color="-1" />
+    <button85 text="Button 85" command="Command Button 85" bg_color="-1" />
+    <button86 text="Button 86" command="Command Button 86" bg_color="-1" />
+    <button87 text="Button 87" command="Command Button 87" bg_color="-1" />
+    <button88 text="Button 88" command="Command Button 88" bg_color="-1" />
+    <button89 text="Button 89" command="Command Button 89" bg_color="-1" />
+    <button90 text="Button 90" command="Command Button 90" bg_color="-1" />
+    <button91 text="Button 91" command="Command Button 91" bg_color="-1" />
+    <button92 text="Button 92" command="Command Button 92" bg_color="-1" />
+    <button93 text="Button 93" command="Command Button 93" bg_color="-1" />
+    <button94 text="Button 94" command="Command Button 94" bg_color="-1" />
+    <button95 text="Button 95" command="Command Button 95" bg_color="-1" />
+    <button96 text="Button 96" command="Command Button 96" bg_color="-1" />
+    <button97 text="Button 97" command="Command Button 97" bg_color="-1" />
+    <button98 text="Button 98" command="Command Button 98" bg_color="-1" />
+    <button99 text="Button 99" command="Command Button 99" bg_color="-1" />
+    <button100 text="Button 100" command="Command Button 100" bg_color="-1" />
+  </buttonConfig>
+</template>

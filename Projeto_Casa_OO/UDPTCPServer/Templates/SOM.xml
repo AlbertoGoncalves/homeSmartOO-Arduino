@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<template>
+  <name>som</name>
+  <DynamicBasedTemplate>true</DynamicBasedTemplate>
+  <numberOfButtons>18</numberOfButtons>
+  <amountOfButtonsInARow>3</amountOfButtonsInARow>
+  <outIP>192.168.3.100,</outIP>
+  <outPort>8090</outPort>
+  <addLF>false</addLF>
+  <addCR>false</addCR>
+  <useTCP>true</useTCP>
+  <waitForConnection>false</waitForConnection>
+  <closeSocketWhenDone>true</closeSocketWhenDone>
+  <workInHEX>false</workInHEX>
+  <setRowHeights>false</setRowHeights>
+  <rowHeight>100</rowHeight>
+  <buttonConfig>
+    <button1 text="LIGA  DESLIGA" command="#Q1*HOME...*LIGA..*D0000*L0000@" />
+    <button2 text="↑" command="#Q1*HOME...*CIMA..*D0000*L0000@" />
+    <button3 text="MODE" command="#Q1*HOME...*MODE..*D0000*L0000@" />
+    <button4 text="←" command="#Q1*HOME...*ESQ...*D0000*L0000@" />
+    <button5 text="ÁUDIO " command="#Q1*HOME...*AUDIO.*D0000*L0000@" />
+    <button6 text="→" command="#Q1*HOME...*DIR...*D0000*L0000@" />
+    <button7 text="CH +" command="#Q1*HOME...*CH+..*D0000*L0000@" />
+    <button8 text="↓" command="#Q1*HOME...*BAIXO.*D0000*L0000@" />
+    <button9 text="VOL +" command="#Q1*HOME...*VOL+..*D0000*L0000@" />
+    <button10 text="CH -" command="#Q1*HOME...*CH-..*D0000*L0000@" />
+    <button11 text="MUDO" command="#Q1*HOME...*MUTE..*D0000*L0000@" />
+    <button12 text="VOL -" command="#Q1*HOME...*VOL-..*D0000*L0000@" />
+    <button13 text="-" command="a" />
+    <button14 text="-" command="#Q1*L1*T" />
+    <button15 text="-" command="#Q1*T1" />
+    <button16 text="-" command="" />
+    <button17 text="-" command="#Q1*L2*A*D" />
+    <button18 text="-" command="#Q1*S1*5*D" />
+  </buttonConfig>
+</template>

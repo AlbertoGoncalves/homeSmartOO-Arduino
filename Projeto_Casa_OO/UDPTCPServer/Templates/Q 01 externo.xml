@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<template>
+  <name>Q 01 externo</name>
+  <DynamicBasedTemplate>true</DynamicBasedTemplate>
+  <numberOfButtons>40</numberOfButtons>
+  <amountOfButtonsInARow>10</amountOfButtonsInARow>
+  <outIP>192.168.3.100,</outIP>
+  <outPort>8090</outPort>
+  <addLF>false</addLF>
+  <addCR>false</addCR>
+  <useTCP>true</useTCP>
+  <waitForConnection>false</waitForConnection>
+  <closeSocketWhenDone>true</closeSocketWhenDone>
+  <workInHEX>false</workInHEX>
+  <setRowHeights>false</setRowHeights>
+  <rowHeight>100</rowHeight>
+  <buttonConfig>
+    <button1 text="LUZ 01" command="#Q1*L1*L*D0000*L0000@" />
+    <button2 text="LUZ PC" command="#Q1*L2*L*D0000*L0000@" />
+    <button3 text="PERFIL 01" command="#Q1*L5*L*D0000*L0000@" />
+    <button4 text="LUZ 01 AUTO" command="#Q1*L1*A*D0000*L0000@" />
+    <button5 text="LUZ 03 AUTO " command="#Q1*L3*A*D0000*L0000@" />
+    <button6 text="LUZ FULL" command="#Q1*L7*L*D0000*L0000@" />
+    <button7 text="LUZ 01              L 13:30              D 14:00" command="#Q1*L1*T*D1400*L1330*11111XX@" />
+    <button8 text="LUZ  03              L 00:00             D 00:00" command="#Q1*T2*L*D0" />
+    <button9 text="Tempo Sensor Movimento Modificar 3" command="#Q1*S1*3*D0000*L0000@" />
+    <button10 text="LCD" command="LCD" />
+    <button11 text="LUZ 03" command="#Q1*L3*L*D0000*L0000@" />
+    <button12 text="LUZ 04" command="#Q1*L4*L*D0000*L0000@" />
+    <button13 text="PERFIL 02" command="#Q1*L6*L*D0750*L0330@" />
+    <button14 text="LUZ 02 AUTO " command="#Q1*L2*A*D0000*L0000@" />
+    <button15 text="LUZ 04 AUTO " command="#Q1*L4*A*D0000*L0000@" />
+    <button16 text="DESLIGA LUZ   FULL" command="#Q1*L8*L*D0000*L0000@" />
+    <button17 text="LUZ  01              L 07:00             D 08:10" command="#Q1*L1*T*D0810*L0700*11111XX@" />
+    <button18 text="LUZ  04              L 00:00             D 00:00" command="#Q1*S1*5*D000" />
+    <button19 text="Tempo Sensor Movimento Modificar 5" command="#Q1*S1*5*D0000*L0000@" />
+    <button20 text="Hora" command="HORA" />
+    <button21 text="TV" command="#Q1*T1*L*D0750*L0330@" />
+    <button22 text="TOMADA 02" command="#Q1*T2*L*D0000*L0000@" />
+    <button23 text="TV                    L 07:20              D 08:05" command="#Q1*T1*T*D0805*L0720*11111XX@" />
+    <button24 text="TV                        L 13:40              D 14:00" command="#Q1*T1*T*D1400*L1340*11111XX@" />
+    <button25 text="TOMADA   FULL" command="#Q1*T5*L*D0000*L0000@" />
+    <button26 text="VENTILADOR               L 12:25              D 13:30" command="#Q1*T3*T*D1330*L1225*11111XX@" />
+    <button27 text="" command="Command Button 27" />
+    <button28 text="" command="Command Button 28" />
+    <button29 text="" command="Command Button 29" />
+    <button30 text="VOL +" command="#Q1*HOME...*VOL+..*D0000*L0000@" />
+    <button31 text="TOMADA CAMA" command="#Q1*T4*L*D0000*L0000@" />
+    <button32 text="VENTILADOR " command="#Q1*T3*L*D0000*L0000@" />
+    <button33 text="TOMADA   CAMA                   L 20:00              D 08:00" command="#Q1*T4*T*D0800*L2000*11111XX@" />
+    <button34 text="VENTILADOR              L 03:20              D 08:05" command="#Q1*T3*T*D0805*L0320*11111XX@" />
+    <button35 text="DESLIGA TOMADA  FULL" command="#Q1*T6*L*D0000*L0000@" />
+    <button36 text="VENTILADOR FINAIS DE SEMANA                L 03:30               D 09:30" command="#Q1*T3*T*D0930*L0330*XXXXX11@" />
+    <button37 text="" command="Command Button 37" />
+    <button38 text="" command="Command Button 38" />
+    <button39 text="" command="Command Button 39" />
+    <button40 text="VOL -" command="#Q1*HOME...*VOL-..*D0000*L0000@" />
+  </buttonConfig>
+</template>
